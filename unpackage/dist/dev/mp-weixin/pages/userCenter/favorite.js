@@ -12,7 +12,8 @@ if (!Math) {
 function _sfc_render(_ctx, _cache) {
   return {
     a: common_vendor.p({
-      isFavorite: true
+      isFavorite: true,
+      showCart: false
     })
   };
 }

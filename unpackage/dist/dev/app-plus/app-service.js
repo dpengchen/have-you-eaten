@@ -7942,7 +7942,10 @@ ${i3}
   function _sfc_render$8(_ctx, _cache) {
     const _component_food_commend2 = resolveEasycom(vue.resolveDynamicComponent("food-commend2"), __easycom_0$5);
     return vue.openBlock(), vue.createElementBlock("view", { class: "favoriteLayout" }, [
-      vue.createVNode(_component_food_commend2, { isFavorite: true })
+      vue.createVNode(_component_food_commend2, {
+        isFavorite: true,
+        showCart: false
+      })
     ]);
   }
   const PagesUserCenterFavorite = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["render", _sfc_render$8], ["__scopeId", "data-v-35472f16"], ["__file", "D:/development/project/my/Hbuilder/takeOut/pages/userCenter/favorite.vue"]]);
