@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "寻找美食",
+  "usingComponents": {
+    "uni-search-bar": "../../uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "uni-section": "../../uni_modules/uni-section/components/uni-section/uni-section",
+    "food-commend2": "../../components/food-commend2/food-commend2"
+  }
+}

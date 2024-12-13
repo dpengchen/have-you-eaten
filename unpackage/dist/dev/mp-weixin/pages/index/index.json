@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "主页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "common-title": "../../components/common-title/common-title",
+    "food-recommend-top": "../../components/food-recommend-top/food-recommend-top",
+    "home-common-title": "../../components/home-common-title/home-common-title",
+    "food-recommend": "../../components/food-recommend/food-recommend",
+    "food-commend2": "../../components/food-commend2/food-commend2"
+  }
+}

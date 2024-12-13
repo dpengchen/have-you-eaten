@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shopingCart/shopingCart",
+    "pages/userCenter/userCenter",
+    "pages/search/search",
+    "pages/store/store",
+    "pages/address/address",
+    "pages/address/editAddress",
+    "pages/userCenter/favorite",
+    "pages/userCenter/voucher",
+    "pages/store/foodDetails",
+    "pages/userCenter/profile",
+    "pages/login/login",
+    "pages/historyOrder/historyOrder",
+    "pages/historyOrder/orderDetails"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/homeSelect.png"
+      },
+      {
+        "pagePath": "pages/store/store",
+        "iconPath": "static/tabbar/classify.png",
+        "selectedIconPath": "static/tabbar/classifySelect.png"
+      },
+      {
+        "pagePath": "pages/shopingCart/shopingCart",
+        "iconPath": "static/tabbar/shopingCart.png",
+        "selectedIconPath": "static/tabbar/shopingCartSelect.png"
+      },
+      {
+        "pagePath": "pages/userCenter/userCenter",
+        "iconPath": "static/tabbar/userCenter.png",
+        "selectedIconPath": "static/tabbar/userCenterSelect.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

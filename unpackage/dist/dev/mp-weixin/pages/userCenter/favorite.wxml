@@ -1,0 +1,1 @@
+<view class="favoriteLayout data-v-35472f16"><food-commend2 wx:if="{{a}}" class="data-v-35472f16" u-i="35472f16-0" bind:__l="__l" u-p="{{a}}"></food-commend2></view>

@@ -1,0 +1,1 @@
+<view class="layout data-v-0ef91c53"><view class="title data-v-0ef91c53">{{a}}</view><view class="content data-v-0ef91c53"><slot name="content"></slot></view></view>

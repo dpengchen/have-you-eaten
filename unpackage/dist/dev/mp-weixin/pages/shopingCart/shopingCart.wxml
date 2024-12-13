@@ -1,0 +1,1 @@
+<view class="orderLayout data-v-69277e63"><common-title wx:if="{{a}}" class="data-v-69277e63" u-i="69277e63-0" bind:__l="__l" u-p="{{a}}"></common-title><order wx:if="{{b}}" class="currentOrder data-v-69277e63" u-i="69277e63-1" bind:__l="__l" u-p="{{b}}"></order></view>

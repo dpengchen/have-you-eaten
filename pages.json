@@ -1,0 +1,120 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/shopingCart/shopingCart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/userCenter/userCenter",
+			"style": {
+				"navigationBarTitleText": "用户中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "寻找美食"
+			}
+		},
+		{
+			"path": "pages/store/store",
+			"style": {
+				"navigationBarTitleText": "商店",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "我的地址"
+			}
+		},
+		{
+			"path": "pages/address/editAddress",
+			"style": {
+				"navigationBarTitleText": "编辑地址"
+			}
+		},
+		{
+			"path": "pages/userCenter/favorite",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/userCenter/voucher",
+			"style": {
+				"navigationBarTitleText": "代金券"
+			}
+		},
+		{
+			"path": "pages/store/foodDetails",
+			"style": {
+				"navigationBarTitleText": "商品详情页"
+			}
+		},
+		{
+			"path": "pages/userCenter/profile",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录页面",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/historyOrder/historyOrder",
+			"style": {
+				"navigationBarTitleText": "历史订单"
+			}
+		}, {
+			"path": "pages/historyOrder/orderDetails",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabbar/home.png",
+			"selectedIconPath": "static/tabbar/homeSelect.png"
+		}, {
+			"pagePath": "pages/store/store",
+			"iconPath": "static/tabbar/classify.png",
+			"selectedIconPath": "static/tabbar/classifySelect.png"
+		}, {
+			"pagePath": "pages/shopingCart/shopingCart",
+			"iconPath": "static/tabbar/shopingCart.png",
+			"selectedIconPath": "static/tabbar/shopingCartSelect.png"
+		}, {
+			"pagePath": "pages/userCenter/userCenter",
+			"iconPath": "static/tabbar/userCenter.png",
+			"selectedIconPath": "static/tabbar/userCenterSelect.png"
+		}]
+	}
+}

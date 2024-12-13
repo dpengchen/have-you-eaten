@@ -1,0 +1,11 @@
+"use strict";
+const _imports_0$4 = "/assets/github01.e7c8e475.png";
+const _imports_0$3 = "/static/icons/save.png";
+const _imports_0$2 = "/static/icons/voucher.png";
+const _imports_0$1 = "/assets/food-commend.fa60454d.png";
+const _imports_0 = "/assets/food-commend2.d2f91c2c.png";
+exports._imports_0 = _imports_0$4;
+exports._imports_0$1 = _imports_0$3;
+exports._imports_0$2 = _imports_0$2;
+exports._imports_0$3 = _imports_0$1;
+exports._imports_0$4 = _imports_0;
